@@ -26,10 +26,10 @@ const Home = ({ products, bannerData }) => {
 //https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props
 export const getServerSideProps = async () => {
   //將 getServerSideProps export是為了使其與 Next.js 的伺服器端渲染機制協同工作，以確保頁面能夠在伺服器端取得所需的資料。
-  const query = '*[_type == "product"]';
+  const query = `*[_type == "product"]`;
   const products = await client.fetch(query);
 
-  const bannerQuery = '*[_type == "banner"]';
+  const bannerQuery = `*[_type == "banner"]`;
   const bannerData = await client.fetch(bannerQuery);
 
   return {

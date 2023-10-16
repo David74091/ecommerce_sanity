@@ -125,10 +125,10 @@ export const getStaticPaths = async () => {
       slug: product.slug.current,
     },
     //paths會長這樣：
-    // { params: { slug: 'cool-in-ear-headphones' } },
-    // { params: { slug: 'headphones' } },
-    // { params: { slug: 'headphones_new' } },
-    // { params: { slug: 'speaker' } }
+    // { params: { slug: "cool-in-ear-headphones" } },
+    // { params: { slug: "headphones" } },
+    // { params: { slug: "headphones_new" } },
+    // { params: { slug: "speaker" } }
   }));
 
   return {
@@ -140,8 +140,8 @@ export const getStaticPaths = async () => {
 //Next.js框架獨有的獲取資料方式，區別於傳統useEffect，用於產生靜態頁面。資料獲取發生在建置時，而不是在如同getServerSideProps每次請求時。
 //https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props
 export const getStaticProps = async ({ params: { slug } }) => {
-  const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
-  const productsQuery = '*[_type == "product"]';
+  const query = `*[_type == "product" && slug.current == "${slug}"][0]`;
+  const productsQuery = `*[_type == "product"]`;
 
   const product = await client.fetch(query);
   const products = await client.fetch(productsQuery);
