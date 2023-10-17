@@ -9,10 +9,15 @@ https://ecommerce-sanity-7zas.vercel.app/
 ---
 
 ## 網頁部分截圖：
-<div style="display: flex; align-items: center;">
-  <img src="home.png" alt="首頁" >
-  <img src="商品頁.png" alt="商品" >
-  <img src="購物車.png" alt="購物車"  >
-  <img src="結帳.png" alt="結帳" >
-</div>
+
+![](home.png "")
+---
+
+![](商品頁.png "")
+---
+
+![](購物車.png "")
+---
+
+![](結帳.png "")
 
