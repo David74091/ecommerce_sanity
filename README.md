@@ -1,5 +1,5 @@
 ## 電商網站
-第一次嘗試使用Next.js框架優化性能以及SEO，以及sanity無頭CMS，使得內容管理變得容易
+第一次嘗試使用Next.js框架優化性能、SEO，以及使用sanity無頭CMS，管理內容
 
 ---
 
