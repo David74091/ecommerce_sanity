@@ -10,14 +10,9 @@ https://ecommerce-sanity-7zas.vercel.app/
 
 ## 網頁部分截圖：
 <div style="display: flex; align-items: center;">
-  <img src="首頁.PNG" alt="首頁"  height="300">
-  <img src="選擇日期.PNG" alt="首頁"  height="300">
-  <img src="支出細節.PNG" alt="首頁"  height="300">
-  <img src="新增支出.PNG" alt="首頁" height="300">
-  <img src="預算.PNG" alt="首頁" height="300">
-  <img src="新增預算.PNG" alt="首頁" height="300">
-  <img src="每日提醒.PNG" alt="首頁" height="300">
-  <img src="統計.PNG" alt="首頁" height="300">
-  <img src="帳戶管理.jpeg" alt="首頁" height="300">
+  <img src="home.png" alt="首頁" >
+  <img src="商品頁.png" alt="商品" >
+  <img src="購物車.png" alt="購物車"  >
+  <img src="結帳.png" alt="結帳" >
 </div>
 
